@@ -18,15 +18,15 @@
                 <input type="text" name="search" id="search-bar">
             </div>
             <div class="account-info">
-                <img src="logos/bell-ring-outline.svg" alt="Notification">
-                <img src="logos/account-circle.svg" alt="User">
+                <img id="bell" src="logos/bell-ring-outline.svg" alt="Notification">
+                <img class="smallProfile" src="logos/account-circle.svg" alt="User">
                 <p>Morgan Oakley</p>
             </div>
             <div class="greetings">
-                <img src="logos/account-circle.svg" alt="User">
+                <img id="bigProfile" src="logos/account-circle.svg" alt="User">
                 <div class="text">
                     <p>Hi there,</p>
-                    <p>Morgan Oakley (@morgan)<p>
+                    <h2>Morgan Oakley (@morgan)</h2>
                 </div>
             </div>
             <div class="buttons">
@@ -56,112 +56,129 @@
         </div>
 
         <div class="content">
-            <h2 class="Project-header">Your Projects</h2>
-
-            <div class="card">
-                <h3 class="card-header">Super Cool Project</h3>
-                <div>One of the projects of all time.</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
+            <div class="projects">
+                <h3 class="project-header">Your Projects</h3>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Super Cool Project</h4>
+                            <div>One of the projects of all time.</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Less Cool Project</h4>
+                            <div>Not one of the projects of all time.</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Impossible App</h4>
+                            <div>No way!</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Easy Peasy App</h4>
+                            <div>One of the easiest projects of all time</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Ad Blocker</h4>
+                            <div>Blocks ads</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4 class="card-header">Money maker</h4>
+                            <div>Deepseek v2.0</div>
+                        </div>
+                        <div class="card-options">
+                            <img src="logos/star-plus-outline.svg" alt="favorite">
+                            <img src="logos/eye-plus-outline.svg" alt="view">
+                            <img src="logos/source-fork.svg" alt="source fork">
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <h3 class="card-header">Less Cool Project</h3>
-                <div>Not one of the projects of all time.</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
-                </div>
-
-            <div class="card">
-                <h3 class="card-header">Impossible App</h3>
-                <div>No way!</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
-                </div>
-            </div>
-
-            <div class="card">
-                <h3 class="card-header">Easy Peasy App</h3>
-                <div>One of the easiest projects of all time</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
+            <div class="announcements">
+                <h3 class="accouncements-header">Announcements</h3>
+                <div class="announcement-container">
+                    <div class="announcement-text">
+                        <h4>Site Maintenance</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                    <hr>
+                    <div class="announcement-text">
+                        <h4>Community Share Day</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                    <hr>
+                    <div class="announcement-text">
+                        <h4>Updated Privacy Policy</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <h3 class="card-header">Ad Blocker</h3>
-                <div>Blocks ads</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
-                </div>
-            </div>
-
-            <div class="card">
-                <h3 class="card-header">Money maker</h3>
-                <div>Deepseek v2.0</div>
-                <div class="card-options">
-                    <img src="logos/star-plus-outline.svg" alt="favorite">
-                    <img src="logos/eye-plus-outline.svg" alt="view">
-                    <img src="logos/source-fork.svg" alt="source fork">
-                </div>
-            </div>
-
-            <h2 class="accouncements-header">Announcements</h2>
-
-            <div class="annoucement-container">
-                <h4>site maintenance</h4>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <hr>
-                <h4>Community Share Day</h4>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <hr>
-                <h4>Updated Privacy Policy</h4>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                <hr>
-            </div>
-
-            <div class="trending">Trending</div>
-
-            <div class="trending-container">
-                <div class="user">
-                    <img src="logos/account-circle.svg" alt="Profile">
-                    <h4>Bob</h4>
-                    <p>CSS enjoyer</p>
-                </div>
-            </div>
-
-            <div class="trending-container">
-                <div class="user">
-                    <img src="logos/account-circle.svg" alt="Profile">
-                    <h4>Bobby</h4>
-                    <p>CSS Hater</p>
-                </div>
-            </div>
-
-            <div class="trending-container">
-                <div class="user">
-                    <img src="logos/account-circle.svg" alt="Profile">
-                    <h4>Bobbert</h4>
-                    <p>One of the programmers of all time.</p>
-                </div>
-            </div>
-
-            <div class="trending-container">
-                <div class="user">
-                    <img src="logos/account-circle.svg" alt="Profile">
-                    <h4>Bobbly</h4>
-                    <p>Good guy</p>
+            <div class="trending">
+                <h3>Trending</h3>
+                <div class="trending-container">
+                    <div class="trending-card">
+                        <div class="user">
+                            <img class="smallProfile" src="logos/account-circle.svg" alt="Profile">
+                            <div>@Bob</div>
+                            <p>CSS enjoyer</p>
+                        </div>
+                    </div>
+                    <div class="trending-card">
+                        <div class="user">
+                            <img class="smallProfile" src="logos/account-circle.svg" alt="Profile">
+                            <div>@Bobby</div>
+                            <p>CSS Hater</p>
+                        </div>
+                    </div>
+                    <div class="trending-card">
+                        <div class="user">
+                            <img class="smallProfile" src="logos/account-circle.svg" alt="Profile">
+                            <div>@Bobbert</div>
+                            <p>One of the programmers</p>
+                        </div>
+                    </div>
+                    <div class="trending-card">
+                        <div class="user">
+                            <img class="smallProfile" src="logos/account-circle.svg" alt="Profile">
+                            <div>@Bobbly</div>
+                            <p>Good guy</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
